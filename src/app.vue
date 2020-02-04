@@ -1,10 +1,25 @@
 <template>
-    <div class="main">hello world</div>
+    <div>
+        <Header/>
+        <Todo/>
+        <Footer/>
+    </div>
 </template>
 
-<style>
-    .main {
-        font-size: 24px;
-        color: red;
+<script>
+import Header from './todo/Header.vue'
+import Footer from './todo/Footer.vue'
+import Todo from './todo/Todo.vue'
+
+export default {
+    components: {
+        Header,
+        Footer,
+        Todo
     }
+}
+</script>
+
+<style>
+   
 </style>
