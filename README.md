@@ -1,3 +1,11 @@
+#### 本地运行
+下载源码： `git clone https://github.com/dengffg/vue-webpack-todo.git` 
+
+安装依赖： `npm install` 
+
+本地运行： `npm run dev`
+打开浏览器访问： http://0.0.0.0:8000/
+
 #### 从零搭建基于vue+webpack 的todolist项目
 ----
 首先创建目录vue-webpack-todo,在该目录下运行`npm init`初始化生成package.json。 
